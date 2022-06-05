@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "HF-authserver"
+version = "0.1.0"
+description = "Headless authentication server for HumanFlow. Manages the user DB and authentication"
+authors = ["agvantibo <apicalium@gmail.com>"]
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+Flask = "*"
+Flask-SQLAlchemy = "*"
+jsonify = "^0.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
